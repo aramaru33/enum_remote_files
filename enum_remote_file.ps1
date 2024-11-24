@@ -1,10 +1,10 @@
-$output_directory_path = "C:\\Users\arase\Desktop\net_view"
+$output_directory_path = ""
 $net_view_file_path = "$output_directory_path\netview.txt"
-$log_file_path = "C:\\Users\arase\Desktop\net_view\netview.log"
+$log_file_path = ""
 
-$server = "192.168.11.51"
-$user = "testuser"
-$password = "p@ssw0rd~!"
+$server = ""
+$user = ""
+$password = ""
 
 # Start script
 $script_file = [System.IO.Path]::GetFileName($MyInvocation.MyCommand.Path)
